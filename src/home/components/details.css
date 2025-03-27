@@ -1,0 +1,28 @@
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.no-arrows {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+.slider{
+    width:100%;
+    height: 5px;
+    background: #00c49f;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #f8f8f8;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid #f8f8f8;
+}
+
